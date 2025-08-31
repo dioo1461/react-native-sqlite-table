@@ -12,13 +12,12 @@
   "files": ["dist"],
   "scripts": { "build": "tsc" },
   "dependencies": {
-    "es-toolkit": "^1.39.10"
+    "es-toolkit": "^1.39.10",
+    "react-native-sqlite-storage": "^6.0.1"
   },
   "peerDependencies": {
     "react": ">=18.0.0",
-    "react-native": "*",
-    "react-native-sqlite-storage": "^6.0.1"
-  },
+    "react-native": "*"  },
   "peerDependenciesMeta": {
     "react-native-sqlite-storage": { "optional": false }
   },
