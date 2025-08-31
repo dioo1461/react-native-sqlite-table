@@ -35,9 +35,9 @@ Built on top of [`react-native-sqlite-storage`](https://github.com/andpor/react-
 ## 📦 Installation
 
 ```bash
-npm install react-native-sqlite-table react-native-sqlite-storage
+npm install react-native-sqlite-table
 # or
-yarn add react-native-sqlite-table react-native-sqlite-storage
+yarn add react-native-sqlite-table
 ```
 
 > **Note:** `react` and `react-native` are peer dependencies and must already be installed.
