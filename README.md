@@ -98,7 +98,6 @@ export function Chat() {
   const table = useSQLiteTable<Message>({
     tableName: 'messages',
     columns: messageColumns,
-    ddlOption: { version: 1 },
   });
 
   const send = async (text: string) => {
