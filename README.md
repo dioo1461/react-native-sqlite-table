@@ -115,7 +115,7 @@ Each column can be defined as an object or shorthand string (`'TEXT'`, `'INTEGER
 
 | Property | Type                                         | Description                          |
 |----------|----------------------------------------------|--------------------------------------|
-| type     | `'TEXT' \| 'INTEGER' \| 'BOOLEAN' \| 'BLOB'` | SQLite column type (**required**)    |
+| type     | `'TEXT' \| 'INTEGER' \| 'REAL' \| 'BOOLEAN' \| 'BLOB'` | SQLite column type (**required**)    |
 | nullable | `boolean`                                    | Whether `NULL` values are allowed    |
 | default  | `string \| number \| boolean \| object`      | Default value                        |
 | unique   | `boolean`                                    | Create a unique index                |
@@ -250,7 +250,7 @@ const ddl = {
 
 ## 🧩 TypeScript First-Class Support
 
-<img width="817" height="312" alt="image" src="https://github.com/user-attachments/assets/0c6d487c-a2d0-4b8b-8ebf-9ad87e0e522a" />
+<img width="835" height="290" alt="image" src="https://github.com/user-attachments/assets/7d6d65f8-fbb9-4a04-82bc-8321b00e4bcf" />
 
 - Compiler ensures your TypeScript interface is consistent with the defined columns.
 - Insert, update, and select queries are fully type-safe at compile time.
