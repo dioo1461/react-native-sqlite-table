@@ -63,6 +63,8 @@ export const messageColumns = {
 };
 ```
 
+> **Note:** `row_id` is a reserved auto-incrementing primary key (`INTEGER PRIMARY KEY AUTOINCREMENT`) managed by the library; do not include it in your column definitions.
+
 ### 2. Create and use table (class)
 
 ```ts
