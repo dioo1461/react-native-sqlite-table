@@ -203,7 +203,6 @@ function ChatList() {
   const table = useSQLiteTable<Message>({
     tableName: 'messages',
     columns: messageColumns,
-    ddlOption: { version: 1 },
   });
 
   const [messages, setMessages] = React.useState<Message[]>([]);
