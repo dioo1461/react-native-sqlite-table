@@ -56,9 +56,9 @@ export interface Message {
 }
 
 export const messageColumns = {
-  roomId: { type: 'TEXT' },
+  roomId: 'TEXT',
   text: { type: 'TEXT', nullable: false },
-  timestamp: { type: 'INTEGER' },
+  timestamp: 'INTEGER',
   edited: { type: 'BOOLEAN', default: false },
 };
 ```
