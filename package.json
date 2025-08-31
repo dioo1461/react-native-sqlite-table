@@ -1,0 +1,27 @@
+{
+  "name": "react-native-sqlite-table",
+  "version": "1.0.0",
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "es-toolkit": "^1.39.10",
+    "react-native-sqlite-storage": "^6.0.1"
+  },
+  "peerDependencies": {
+    "react": ">=18.0.0",
+    "react-native": "*"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.2"
+  }
+}

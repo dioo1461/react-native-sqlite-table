@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"],
+      "@utils/*": ["src/utils/*"],
+    },
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+
+    /* Module Resolution */
+    "composite": true,
+    "outDir": "./dist",
+  },
+  // "include": ["src"],
+}
