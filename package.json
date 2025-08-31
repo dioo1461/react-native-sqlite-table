@@ -1,6 +1,6 @@
 {
   "name": "react-native-sqlite-table",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "license": "MIT",
   "repository": { "type": "git", "url": "git+https://github.com/dioo1461/react-native-sqlite-table.git" },
   "homepage": "https://github.com/dioo1461/react-native-sqlite-table#readme",
@@ -17,9 +17,7 @@
   },
   "peerDependencies": {
     "react": ">=18.0.0",
-    "react-native": "*"  },
-  "peerDependenciesMeta": {
-    "react-native-sqlite-storage": { "optional": false }
+    "react-native": "*" 
   },
   "devDependencies": {
     "typescript": "^5.9.2"
