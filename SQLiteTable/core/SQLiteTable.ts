@@ -1,7 +1,6 @@
 /* eslint-disable no-console, @stylistic/max-len */
 
 import {
-  DEBUG,
   openDatabase,
   type SQLiteDatabase,
 } from 'react-native-sqlite-storage';
@@ -22,8 +21,6 @@ import { normalizeColumns } from '../utils/normalize';
 import { prep } from '../utils/prep';
 import { runBatchNoTxn, runBatchTxn, runNoTxn, runTxn } from '../utils/sql';
 import type { TableCtx } from './context';
-
-DEBUG(false);
 
 export const SQLITE_RESERVED_PRIMARY_KEY = 'row_id';
 
