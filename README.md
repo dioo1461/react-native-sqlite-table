@@ -60,7 +60,7 @@ export const messageColumns = {
   text: { type: 'TEXT', nullable: false },
   timestamp: 'INTEGER',
   edited: { type: 'BOOLEAN', default: false },
-};
+} as const;
 ```
 
 > **Note:** `row_id` is a reserved auto-incrementing primary key (`INTEGER PRIMARY KEY AUTOINCREMENT`) managed by the library; do not include it in your column definitions.
