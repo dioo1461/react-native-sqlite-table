@@ -49,9 +49,12 @@ export const validateRow = <T extends Record<string, unknown>>(
         validatedRow[k] = v;
         break;
       }
-      case 'BOOLEAN': {
-        if (typeof v !== 'boolean') {
-          throw new Error(`[SQLiteTable] "${k}" must be boolean but got ${v}`);
+      case 'REAL': {
+        if (typeof v !== 'number') {
+          throw new Error(`[SQLiteTable] "${k}" must be real number but got ${v}`);
+        }
+        if (!Number.isFinite(v)) {
+          throw new Error(`[SQLiteTable] "${k}" must be finite but got ${v}`);
         }
         validatedRow[k] = v;
         break;

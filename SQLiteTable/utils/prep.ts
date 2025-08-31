@@ -13,6 +13,7 @@ export const prep = <T extends Record<string, unknown>>(
 
   switch (spec.type) {
     case 'INTEGER': return value as number;
+    case 'REAL': return value as number;
     case 'BOOLEAN': return (value as boolean) ? 1 : 0;
     case 'TEXT':    return value as string;
     case 'BLOB': {
