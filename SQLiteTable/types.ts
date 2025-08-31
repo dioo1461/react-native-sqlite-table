@@ -14,10 +14,10 @@ export type SqlParam = string | number | boolean | null | Uint8Array | undefined
 
 export type NullishOf<V> = [Extract<V, null>] extends [never] ? false : true;
 
-export type ColumnType = 'TEXT' | 'INTEGER' | 'BOOLEAN' | 'BLOB';
+export type ColumnType = 'TEXT' | 'INTEGER' | 'REAL' | 'BOOLEAN' | 'BLOB';
 export type ColumnTypeOf<V> =
   V extends string ? 'TEXT' :
-    V extends number ? 'INTEGER' :
+    V extends number ? 'INTEGER' | 'REAL' :
       V extends boolean ? 'BOOLEAN' :
         V extends object ? 'BLOB' :
           ColumnType;
