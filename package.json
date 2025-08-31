@@ -1,27 +1,30 @@
 {
   "name": "react-native-sqlite-table",
-  "version": "1.0.0",
+  "version": "0.1.0",
+  "license": "MIT",
+  "repository": { "type": "git", "url": "git+https://github.com/dioo1461/react-native-sqlite-table.git" },
+  "homepage": "https://github.com/dioo1461/react-native-sqlite-table#readme",
+  "author": "dioo1461 <dioo1461@gmail.com>",
   "type": "module",
-  "publishConfig": {
-    "access": "public"
-  },
+  "publishConfig": { "access": "public" },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "files": [
-    "dist"
-  ],
-  "scripts": {
-    "build": "tsc"
-  },
+  "files": ["dist"],
+  "scripts": { "build": "tsc" },
   "dependencies": {
-    "es-toolkit": "^1.39.10",
-    "react-native-sqlite-storage": "^6.0.1"
+    "es-toolkit": "^1.39.10"
   },
   "peerDependencies": {
     "react": ">=18.0.0",
-    "react-native": "*"
+    "react-native": "*",
+    "react-native-sqlite-storage": "^6.0.1"
+  },
+  "peerDependenciesMeta": {
+    "react-native-sqlite-storage": { "optional": false }
   },
   "devDependencies": {
     "typescript": "^5.9.2"
-  }
+  },
+  "engines": { "node": ">=18" },
+  "keywords": ["react-native", "sqlite", "storage", "table", "orm", "database"]
 }
