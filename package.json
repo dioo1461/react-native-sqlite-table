@@ -1,6 +1,6 @@
 {
   "name": "react-native-sqlite-table",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "license": "MIT",
   "repository": { "type": "git", "url": "git+https://github.com/dioo1461/react-native-sqlite-table.git" },
   "homepage": "https://github.com/dioo1461/react-native-sqlite-table#readme",
