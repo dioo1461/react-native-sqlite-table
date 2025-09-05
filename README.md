@@ -6,7 +6,7 @@ Built on top of [`react-native-sqlite-storage`](https://github.com/andpor/react-
 ## ✨ Features
 
 - **Type-safe column definitions**  
-  Define interfaces and column specs in one place, ensuring both runtime and compile-time validation.
+  Define interfaces and column specs in one place, ensuring compile-time validation.
 
 - **Simple CRUD utilities**  
   Use `insert`, `update`, `delete`, `query`, and more with concise APIs.
